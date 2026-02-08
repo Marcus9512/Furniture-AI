@@ -68,10 +68,15 @@ Open common.properties
 <p align="center">
 <img src="readme-resources/profiles.png" width="350" alt="Profiles">
 </p>
-- Launch application, the chroma vectorstore needs to running in the background for the application to start.
+- Launch application (runConfigurations has been commited to the repository), the chroma vectorstore needs to running in the background for the application to start.
 - Wait for data ingestion (the time you scheduled), `ETL Finished` will be logged when the ingestion is finished.
 - Start the frontend by open a terminal in the `chat-frontend` directory and run npm start
 
 ## Swagger API
 - API can be viewed and tested, swagger requires the application to be running.
 - URL: http://localhost:8080/swagger
+
+## TODO
+- Add multiple users
+- Add security for API calls
+- Tailor prompts for different models, based on model size

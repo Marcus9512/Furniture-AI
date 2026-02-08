@@ -68,6 +68,7 @@ Open common.properties
 <p align="center">
 <img src="readme-resources/profiles.png" width="350" alt="Profiles">
 </p>
+
 - Launch application (runConfigurations has been commited to the repository), the chroma vectorstore needs to running in the background for the application to start.
 - Wait for data ingestion (the time you scheduled), `ETL Finished` will be logged when the ingestion is finished.
 - Start the frontend by open a terminal in the `chat-frontend` directory and run npm start
